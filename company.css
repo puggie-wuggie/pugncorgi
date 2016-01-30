@@ -1,0 +1,97 @@
+html, body {
+    margin: 0;
+}
+body {
+    background-color: #222;
+    color: #fff;
+    font-family: "Helvetica", "Arial", sans-serif;
+}
+
+#wrapper {
+    width: 800px;
+    margin: 0 auto;
+    min-height: 100%;
+    box-shadow: 0 0 50px #000;
+}
+
+h1 {
+    margin: 0;
+}
+
+h2 {
+    margin: 0 0 70px 0;
+}
+
+h3 {
+    color: #C5E74B;
+    font-size: 20px;
+}
+
+h1,h2,h3 {
+    font-family: "Indie Flower";
+}
+
+header {
+    height: 300px;
+    color: #fff;
+    text-align: right;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 40px;
+    padding-right: 40px;
+    background-image: url(images/header2.jpg);
+    background-color: #000;
+    background-position: top left;
+    background-repeat: no-repeat;
+    background-size: 412px;
+}
+
+section{
+    background: #1e4e03;
+    color: #fff;
+    padding: 20px 50px;
+    overflow: auto;
+}
+
+footer {
+    color: #a3865e;
+    background-color: #133002;
+    padding: 50px;
+    text-align: center;
+}
+
+img.nap {
+    float: right;
+    margin-left: 50px;
+    height: 200px;
+    box-shadow: 0 0 25px #000;
+}
+
+a.action {
+    border: 1px solid #DFEFA4;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 20px;
+    color: #DFEFA4;
+    background-color: rgba(255, 255, 255, 0.4);
+    text-decoration: none;
+}
+
+#icons {
+    background: #587E44;
+    color: #DFFFBB;
+}
+
+#icons .icon {
+    float: left;
+    text-align: center;
+    width: 230px;
+    
+}
+
+#icons .icon img{
+    width: 200px;
+    height: 200px;
+}
